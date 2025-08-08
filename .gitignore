@@ -1,0 +1,46 @@
+# Node & package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+*.pid
+*.seed
+*.pid.lock
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Builds & coverage
+build/
+dist/
+coverage/
+client/build/
+client/coverage/
+server/coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# SQLite database (local dev)
+server/*.sqlite
+server/*.sqlite-journal
+
+# Caches & misc
+*.cache
+*.swp
+*~
+tmp/
+.turbo/
+.parcel-cache/
+.eslintcache
