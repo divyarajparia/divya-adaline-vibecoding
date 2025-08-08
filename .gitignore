@@ -1,46 +1,81 @@
-# Node & package managers
+# --- Dependencies ---
 node_modules/
+
+# --- Logs ---
+logs/
+*.log
+*.log.*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
-# Logs
-logs/
-*.log
-*.log.*
-*.pid
-*.seed
-*.pid.lock
-
-# Editor/OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Builds & coverage
-build/
-dist/
-coverage/
-client/build/
-client/coverage/
-server/coverage/
-
-# Environment files
+# --- Environment files ---
 .env
 .env.*
 !.env.example
 
-# SQLite database (local dev)
-# server/*.sqlite
-# server/*.sqlite-journal
+# --- Build outputs ---
+dist/
+build/
+out/
 
-# Caches & misc
-*.cache
-*.swp
-*~
-tmp/
-.turbo/
-.parcel-cache/
+# --- Caches ---
+.cache/
+.cache-loader/
 .eslintcache
+.npm/
+.vite/
+.parcel-cache/
+
+# --- Coverage ---
+coverage/
+.nyc_output/
+
+# --- TypeScript ---
+*.tsbuildinfo
+
+# --- Editors & IDEs ---
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# --- Temporary files ---
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*.pid
+*.seed
+*.orig
+*.rej
+
+# --- Archives ---
+*.tar
+*.gz
+*.zip
+*.tgz
+
+# --- Databases ---
+# *.sqlite
+# *.sqlite3
+# *.db
+# *.db-wal
+# *.db-shm
+
+# --- Framework-specific (keep generic just in case) ---
+.next/
+.nuxt/
+.vercel/
+.serverless/
+.docusaurus/
+
