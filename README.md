@@ -1,4 +1,4 @@
-Adaline Full-Stack Challenge (Lite)
+Adaline Full-Stack Challenge
 
 Minimal instructions to run the client and server separately during development.
 
